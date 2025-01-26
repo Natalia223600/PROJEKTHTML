@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporty</title>
+
+    <style>
+        /* Ustawienie koloru tła */
+        body {
+            background-color: #f0f8ff; /* Jasnoniebieskie tło */
+            color: #333; /* Kolor tekstu */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Ustawienia sekcji */
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        video {
+            margin-bottom: 20px;
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1>Różne sporty</h1>
+
+    <h2>Polska sztafeta mężczyzn - 2018r.</h2>
+    <video width="320" height="240" controls>
+        <source src="/polska_sztafeta_zlotem_rekord_swiata.mp4" type="video/mp4">
+        Twoja przeglądarka nie obsługuje tego video.
+    </video>
+
+
+    <h2>Jazda na nartach</h2>
+    <video width="320" height="240" autoplay muted>
+        <source src="narty.mp4" type="video/mp4">
+        Twoja przeglądarka nie obsługuje tego video.
+    </video>
+
+    <h2>Bieganie</h2>
+    <video width="320" height="240" controls poster="poster.jpg">
+        <source src="bieganie.mp4" type="video/mp4">
+        Twoja przeglądarka nie obsługuje tego video.
+    </video>
+
+</body>
+</html>
